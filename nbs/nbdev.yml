@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdep"
+  site-url: "https://restlessronin.github.io/nbdep"
+  description: "Generate `Pipfile` from `nbdev` `settings.ini` file"
+  repo-branch: main
+  repo-url: "https://github.com/restlessronin/nbdep"
