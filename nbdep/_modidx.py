@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://restlessronin.github.io',
                 'git_url': 'https://github.com/restlessronin/nbdep',
                 'lib_path': 'nbdep'},
-  'syms': {'nbdep.core': {'nbdep.core.foo': ('core.html#foo', 'nbdep/core.py')}}}
+  'syms': { 'nbdep.pipfile': { 'nbdep.pipfile._to_pipfile_list': ('pipfile.html#_to_pipfile_list', 'nbdep/pipfile.py'),
+                               'nbdep.pipfile._to_pipfile_nv': ('pipfile.html#_to_pipfile_nv', 'nbdep/pipfile.py'),
+                               'nbdep.pipfile.write_pipfile': ('pipfile.html#write_pipfile', 'nbdep/pipfile.py')}}}
